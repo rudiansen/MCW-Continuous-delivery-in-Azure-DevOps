@@ -33,4 +33,4 @@ Now that the lab is done, we are done with our Azure resources. It is good pract
 
 You should follow all steps provided *after* attending the Hands-on lab.
 
-**[⬆ back to top](#contents)**
+**[⬅️ back to home](../README.md#contents)**
