@@ -32,10 +32,25 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
   - [Solution architecture](#solution-architecture)
   - [Requirements](#requirements)
   - [Before the hands-on lab](content/Before%20the%20HOL.md)
+    - Task 1: Create the Project Repo in GitHub
+    - Task 2: Create GitHub Personal Access Token
+    - Task 3: Create Azure DevOps Personal Access Token
+    - Task 4: Create Azure DevOps Project
+    - Task 5: Connect Azure Board with GitHub
   - [Exercise 1: Continuous Integration](content/Exercise%201%20-%20Continuous%20Integration.md)
-  - [Exercise 2: Continuous Delivery / Continuous Deployment](content/Exercise%202%20-%20Continuous%20Delivery%20-%20Continuous%20Deployment.md)   
+    - Task 1: Set up Local Infrastructure
+    - Task 2: Build Automation with GitHub Registry
+    - Task 3: Editing the GitHub Workflow File Locally
+  - [Exercise 2: Continuous Delivery / Continuous Deployment](content/Exercise%202%20-%20Continuous%20Delivery%20-%20Continuous%20Deployment.md)
+    - Task 1: Set up Cloud Infrastructure
+    - Task 2: Deploy to Azure Web Application
+    - Task 3: Continuous Deployment with GitHub Actions
+    - Task 4: Branch Policies in GitHub (Optional)
   - [Exercise 3: Monitoring, Logging, and Continuous Deployment with Azure](content/Exercise%203%20-%20Continuous%20Deployment%20with%20Azure%20DevOps.md)
+    - Task 1: Continuous Deployment with Azure DevOps Pipelines
+    - Task 2: Linking Git commits to Azure DevOps issues
   - [After the hands-on lab](content/After%20the%20HOL.md)
+    - Task 1: Tear down Azure Resources
   
 <!-- /TOC -->
 
@@ -69,24 +84,26 @@ Websites for medical conferences are typically low-budget websites because the c
 
 3. A [GitHub](https://github.com) account.
 
-4. Local machine or a virtual machine configured with:
+4. Local machine or a Virtual Machine configured with:
 
     - A browser, preferably Chrome, to be consistent with the lab implementation tests.
 
-5. Git for Windows
+5. [Git for Windows](https://gitforwindows.org/)
 
-6. PowerShell
+6. [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7)
 
     - As you will be running PowerShell scripts, make sure that the ExecutionPolicy is set properly. Consult [the Microsoft PowerShell documentation on execution policies](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies) for more details.
 
-7. Docker Desktop for Windows
+7. [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/)
 
-8. [Azure CLI](https://docs.microsoft.com/cli/azure/)
+8. [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 
 9. Angular - minimum 8.3.4.
 
-    - Angular depends on Node.js and npm.
+    - Angular depends on `Node.js` and `npm`.
     - Consult [Setting up the local environment and workspace](https://angular.io/guide/setup-local) on the Angular site for guidance.
     - This lab has been tested with [Node.js](https://nodejs.org/en/download/) version 16.13.0, which includes npm 8.1.0.
+
+10. [Visual Studio Code](https://code.visualstudio.com/download) *(optional)*
 
 **[⬆ back to top](#contents)**
