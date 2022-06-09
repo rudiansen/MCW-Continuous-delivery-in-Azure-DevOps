@@ -5,43 +5,17 @@
 <!-- TOC -->
 
 - [Before the hands-on lab setup guide](#continuous-delivery-in-azure-devops-before-the-hands-on-lab-setup-guide)
-  - [Requirements](#requirements)
-  - [Before the hands-on lab](#before-the-hands-on-lab)
-    - [Task 1: Create the Project Repo](#task-1-create-the-project-repo)
-    - [Task 2: Create GitHub Personal Access Token](#task-2-create-github-personal-access-token)
-    - [Task 3: Create Azure DevOps Personal Access Token](#task-3-create-azure-devops-personal-access-token)
-    - [Task 4: Create Azure DevOps Project](#task-4-create-azure-devops-project)
-    - [Task 5: Connect Azure Board with GitHub](#task-5-connect-azure-board-with-github)
+  - [Task 1: Create the Project Repo](#task-1-create-the-project-repo)
+  - [Task 2: Create GitHub Personal Access Token](#task-2-create-github-personal-access-token)
+  - [Task 3: Create Azure DevOps Personal Access Token](#task-3-create-azure-devops-personal-access-token)
+  - [Task 4: Create Azure DevOps Project](#task-4-create-azure-devops-project)
+  - [Task 5: Connect Azure Board with GitHub](#task-5-connect-azure-board-with-github)
 
 <!-- /TOC -->
 
 # Before the hands-on lab setup guide
 
 You should follow all steps in this document *before* performing the Hands-on lab. Pay close attention to product versions, as the version numbers called out in the lab have been tested and shown successful for the lab.
-
-> **Note**: If the students need to use Microsoft-hosted Azure Pipelines Agents, [Task 4: Create Azure DevOps Project](#task--4-create-azure-devops-project) will need to be completed at least **2-3 business days** before the lab in order to run parallel jobs in Azure DevOps. The other option is to use self-hosted agents. If you need to go the self-hosted route, refer to the [Azure Pipelines Agents documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser).
-
-## Requirements
-
-1. Microsoft Azure subscription must be pay-as-you-go or MSDN.
-
-   - Trial subscriptions will _not_ work
-
-      To complete this lab setup, ensure your account includes the following:
-
-      - Has the [Owner](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#owner) built-in role for the subscription you use.
-
-      - Is a [Member](https://docs.microsoft.com/azure/active-directory/fundamentals/users-default-permissions#member-and-guest-users) user in the Azure AD tenant you use. (Guest users will not have the necessary permissions.)
-
-2. A [GitHub](https://github.com) account.
-
-3. Local machine or a virtual machine configured with:
-
-    - A browser, preferably Chrome for consistency with the lab implementation tests.
-
-4. Git for Windows
-
-5. PowerShell
 
 ## Setup environments
 
