@@ -31,11 +31,11 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
   - [Overview](#overview)
   - [Solution architecture](#solution-architecture)
   - [Requirements](#requirements)
-  - [Before the hands-on lab](#before-the-hands-on-lab)
-  - [Exercise 1: Continuous Integration](#exercise-1-continuous-integration)
-  - [Exercise 2: Continuous Delivery / Continuous Deployment](#exercise-2-continuous-delivery--continuous-deployment)   
-  - [Exercise 3: Monitoring, Logging, and Continuous Deployment with Azure](#exercise-3-monitoring-logging-and-continuous-deployment-with-azure)
-  - [After the hands-on lab](#after-the-hands-on-lab)
+  - [Before the hands-on lab](content/Before%20the%20HOL.md)
+  - [Exercise 1: Continuous Integration](content/Exercise%201%20-%20Continuous%20Integration.md)
+  - [Exercise 2: Continuous Delivery / Continuous Deployment](content/Exercise%202%20-%20Continuous%20Delivery%20-%20Continuous%20Deployment.md)   
+  - [Exercise 3: Monitoring, Logging, and Continuous Deployment with Azure](content/Exercise%203%20-%20Continuous%20Deployment%20with%20Azure%20DevOps.md)
+  - [After the hands-on lab](content/After%20the%20HOL.md)
   
 <!-- /TOC -->
 
@@ -43,9 +43,9 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 
 ## Abstract and learning objectives
 
-In this hands-on lab, you will learn how to implement a solution with a combination of ARM templates and Azure DevOps to enable continuous delivery with several Azure PaaS services.
+In this hands-on lab, you will learn how to implement a solution with a combination of Azure CLI commands and Azure DevOps to enable continuous delivery with several Azure PaaS services.
 
-At the end of this workshop, you will be better able to implement solutions for continuous delivery with GitHub in Azure, as well create an ARM (ARM) template to provision Azure resources, create an Azure DevOps project with a GitHub repository, and configure continuous delivery with GitHub.
+At the end of this workshop, you will be better able to implement solutions for continuous delivery with GitHub in Azure, as well create Azure CLI commands to provision Azure resources, create an Azure DevOps project with a GitHub repository, and configure continuous delivery with GitHub.
 
 ## Overview
 
@@ -59,29 +59,31 @@ Websites for medical conferences are typically low-budget websites because the c
 
 ## Requirements
 
-1. Microsoft Azure subscription must be pay-as-you-go or MSDN.
+1. Microsoft Azure subscription must be Pay-As-You-Go or MSDN.
    - Trial subscriptions will _not_ work.
    - To complete this lab setup, ensure your account includes the following:
      - Has the [Owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) built-in role for the subscription you use.
-     - Is a [Member](https://docs.microsoft.com/azure/active-directory/fundamentals/users-default-permissions#member-and-guest-users) user in the Azure AD tenant you use. (Guest users will not have the necessary permissions.)
+     - Is a [Member](https://docs.microsoft.com/azure/active-directory/fundamentals/users-default-permissions#member-and-guest-users) user in the Azure AD tenant you use. If you are a Guest user, please make sure you have `Application administrator` and `Authentication policy administrator` assignment roles in order to be able to create Service Principal in Azure AD.
 
-2. A [GitHub](https://github.com) account.
+2. If the students need to use Microsoft-hosted Azure Pipelines Agents to run CI/CD pipelines in Azure DevOps, they will need to request a free grant of parallel jobs in Azure Pipelines via [this form](https://aka.ms/azpipelines-parallelism-request). It should be completed at least **2-3 business days** before the lab in order to run parallel jobs in Azure DevOps. The other option is to use self-hosted agents. If you need to go the self-hosted route, refer to the [Azure Pipelines Agents documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser).
 
-3. Local machine or a virtual machine configured with:
+3. A [GitHub](https://github.com) account.
+
+4. Local machine or a virtual machine configured with:
 
     - A browser, preferably Chrome, to be consistent with the lab implementation tests.
 
-4. Git for Windows
+5. Git for Windows
 
-5. PowerShell
+6. PowerShell
 
     - As you will be running PowerShell scripts, make sure that the ExecutionPolicy is set properly. Consult [the Microsoft PowerShell documentation on execution policies](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies) for more details.
 
-6. Docker Desktop for Windows
+7. Docker Desktop for Windows
 
-7. [Azure CLI](https://docs.microsoft.com/cli/azure/)
+8. [Azure CLI](https://docs.microsoft.com/cli/azure/)
 
-8. Angular - minimum 8.3.4.
+9. Angular - minimum 8.3.4.
 
     - Angular depends on Node.js and npm.
     - Consult [Setting up the local environment and workspace](https://angular.io/guide/setup-local) on the Angular site for guidance.
