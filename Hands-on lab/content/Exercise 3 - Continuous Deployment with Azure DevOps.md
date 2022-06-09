@@ -241,7 +241,7 @@ Fabrikam Medical Conferences has its first website for a customer running in the
 
 ### Task 2: Linking Git commits to Azure DevOps issues
 
-In this task, you will create an issue in Azure DevOps and link a Git pull request from GitHub to the Azure DevOps issue. This uses the Azure Boards integration that was set up in the Before Hands on Lab.
+In this task, you will create an issue in Azure DevOps and link a Git pull request from GitHub to the Azure DevOps issue. This uses the Azure Boards integration that was set up in the Before Hands-on Lab.
 
 1. Create a new issue for modifying the README.md in Azure Boards
 
@@ -259,6 +259,7 @@ In this task, you will create an issue in Azure DevOps and link a Git pull reque
 3. Make a small change to README.md. Commit the change, and push it to GitHub.
 
     ```pwsh
+    git add .
     git commit -m "README.md update"
     git push --set-upstream origin feature/update-readme
     ```

@@ -42,8 +42,8 @@ First, we need to set up the cloud infrastructure. We will use PowerShell script
     $cosmosDBName = "fabmedical-cdb-" + $studentprefix
     $webappName = "fabmedical-web-" + $studentprefix
     $planName = "fabmedical-plan-" + $studentprefix
-    $location1 = "westeurope"
-    $location2 = "northeurope"
+    $location1 = "eastasia"
+    $location2 = "southeastasia"
     ```
 
 3. Note the individual calls to the Azure CLI for the following:
@@ -336,7 +336,7 @@ With the infrastructure in place, we can set up continuous deployment with GitHu
 
 ### Task 4: Branch Policies in GitHub (Optional)
 
-In many enterprises, committing to `main` is restricted. Branch policies are used to control how code gets to `main`. This allows you to set up gates on delivery, such as requiring code reviews and status checks. In this task, you will create a branch protection rule and see it in action.
+In many enterprises, committing to `main` branch is restricted. Branch policies are used to control how code gets to `main` branch. This allows you to set up gates on delivery, such as requiring code reviews and status checks. In this task, you will create a branch protection rule and see it in action.
 
 >**Note**: Branch protection rules apply to Pro, Team, and Enterprise GitHub users.
 
@@ -352,7 +352,7 @@ In many enterprises, committing to `main` is restricted. Branch policies are use
 
     ![Branch protection rule creation form](../media/hol-ex2-task3-step2-1.png "Create a new branch protection rule in GitHub")
 
-3. With the branch protection rule in place, direct commits and pushes to the `main` branch will be disabled. Verify this rule by making a small change to your README.md file. Attempt to commit the change to the `main` branch in your local repository followed by a push to the remote repository.
+3. With the branch protection rule in place, direct commits and pushes to the `main` branch will be disabled. Verify this rule by making a small change to your `README.md` file. Attempt to commit the change to the `main` branch in your local repository followed by a push to the remote repository.
 
     ```pwsh
     PS C:\Workspaces\lab\mcw-continuous-delivery-lab-files> git add .

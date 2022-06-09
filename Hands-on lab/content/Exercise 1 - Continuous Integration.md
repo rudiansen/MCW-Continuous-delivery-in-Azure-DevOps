@@ -180,6 +180,7 @@ Now let's make this change in our repository.
 3. Commit this change to your repo, then push the change to GitHub.
 
     ```pwsh
+    git add .
     git commit -m "Updating workflow to update Docker images only when there are changes"
     git push
     ```
@@ -195,6 +196,7 @@ Now let's make this change in our repository.
 5. Commit this change to your repo, then push the change to GitHub.
 
     ```pwsh
+    git add .
     git commit -m "Making a change to the API content"
     git push
     ```
@@ -216,6 +218,7 @@ Now let's make this change in our repository.
 8. Commit these changes, then push the changes to GitHub.
 
     ```pwsh
+    git add .
     git commit -m "Updating Web and Init content"
     git push
     ```
