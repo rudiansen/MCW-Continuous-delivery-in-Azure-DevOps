@@ -336,4 +336,4 @@ In this task, you will create an issue in Azure DevOps and link a Git pull reque
 
     ![Reviewing DeployProd stage transition request during a pipeline execution.](../media/review-deploy-to-app-service.png "Reviewing pipeline request")
 
-**[⬆ back to top](#contents)**
+**[⬅️ back to home](../README.md#contents)**  **[⬆️ back to top](#contents)**

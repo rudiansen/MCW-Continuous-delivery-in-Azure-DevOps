@@ -377,4 +377,4 @@ In many enterprises, committing to `main` is restricted. Branch policies are use
     error: failed to push some refs to 'https://github.com/YOUR_GITHUB_ACCOUNT/mcw-continuous-delivery-lab-files.git'
     ```
 
-**[⬆ back to top](#contents)**
+**[⬅️ back to home](../README.md#contents)**  **[⬆️ back to top](#contents)**

@@ -198,4 +198,4 @@ We can automate our project tracking with the Azure Board integration for GitHub
 
     ![A work item with a linked GitHub commit illustrating the link between Azure DevOps Boards and GitHub issues.](../media/hol-ex1-task1-step10-1.png "Work Item with a Linked GitHub Commit")
 
-**[⬆ back to top](#contents)**
+**[⬅️ back to home](../README.md#contents)**  **[⬆️ back to top](#contents)**

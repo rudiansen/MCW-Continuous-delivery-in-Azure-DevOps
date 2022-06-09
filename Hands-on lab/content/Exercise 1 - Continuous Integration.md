@@ -226,5 +226,4 @@ Now let's make this change in our repository.
 
     ![GitHub Packages tab listing summary of container images that have been pushed to the container registry.](../media/hol-ex1-task4-step12-1.png "GitHub Packages")
 
-
-**[⬆ back to top](#contents)**
+**[⬅️ back to home](../README.md#contents)**  **[⬆️ back to top](#contents)**
