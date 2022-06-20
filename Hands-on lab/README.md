@@ -37,16 +37,16 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
     - Task 3: Create Azure DevOps Personal Access Token
     - Task 4: Create Azure DevOps Project
     - Task 5: Connect Azure Board with GitHub
-  - [Exercise 1: Continuous Integration](content/Exercise%201%20-%20Continuous%20Integration.md)
+  - [Exercise 1: Continuous Integration with GitHub](content/Exercise%201%20-%20Continuous%20Integration.md)
     - Task 1: Set up Local Infrastructure
     - Task 2: Build Automation with GitHub Registry
     - Task 3: Editing the GitHub Workflow File Locally
-  - [Exercise 2: Continuous Delivery / Continuous Deployment](content/Exercise%202%20-%20Continuous%20Delivery%20-%20Continuous%20Deployment.md)
+  - [Exercise 2: Continuous Delivery / Continuous Deployment with GitHub](content/Exercise%202%20-%20Continuous%20Delivery%20-%20Continuous%20Deployment.md)
     - Task 1: Set up Cloud Infrastructure
     - Task 2: Deploy to Azure Web Application
     - Task 3: Continuous Deployment with GitHub Actions
     - Task 4: Branch Policies in GitHub (Optional)
-  - [Exercise 3: Monitoring, Logging, and Continuous Deployment with Azure](content/Exercise%203%20-%20Continuous%20Deployment%20with%20Azure%20DevOps.md)
+  - [Exercise 3: Continuous Deployment with Azure DevOps](content/Exercise%203%20-%20Continuous%20Deployment%20with%20Azure%20DevOps.md)
     - Task 1: Continuous Deployment with Azure DevOps Pipelines
     - Task 2: Linking Git commits to Azure DevOps issues
   - [After the hands-on lab](content/After%20the%20HOL.md)

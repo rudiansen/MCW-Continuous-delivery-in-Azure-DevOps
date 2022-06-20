@@ -4,13 +4,13 @@
 
 <!-- TOC -->
 
-- [Exercise 3: Monitoring, Logging, and Continuous Deployment with Azure](#exercise-3-monitoring-logging-and-continuous-deployment-with-azure)
+- [Exercise 3: Continuous Deployment with Azure DevOps](#exercise-3-monitoring-logging-and-continuous-deployment-with-azure)
     - [Task 1: Continuous Deployment with Azure DevOps Pipelines](#task-3-continuous-deployment-with-azure-devops-pipelines)
     - [Task 2: Linking Git commits to Azure DevOps issues](#task-2-linking-git-commits-to-azure-devops-issues)    
 
 <!-- /TOC -->
 
-## Exercise 3: Monitoring, Logging, and Continuous Deployment with Azure
+## Exercise 3: Continuous Deployment with Azure DevOps
 
 Duration: 40 minutes
 

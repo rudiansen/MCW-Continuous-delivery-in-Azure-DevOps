@@ -4,7 +4,7 @@
 
 <!-- TOC -->
 
-- [Exercise 2: Continuous Delivery / Continuous Deployment](#exercise-2-continuous-delivery--continuous-deployment)
+- [Exercise 2: Continuous Delivery / Continuous Deployment with GitHub](#exercise-2-continuous-delivery--continuous-deployment)
     - [Task 1: Set up Cloud Infrastructure](#task-1-set-up-cloud-infrastructure)
     - [Task 2: Deploy to Azure Web Application](#task-2-deploy-to-azure-web-application)
     - [Task 3: Continuous Deployment with GitHub Actions](#task-3-continuous-deployment-with-github-actions)
@@ -12,7 +12,7 @@
 
 <!-- /TOC -->
 
-## Exercise 2: Continuous Delivery / Continuous Deployment
+## Exercise 2: Continuous Delivery / Continuous Deployment with GitHub
 
 Duration: 40 minutes
 
@@ -101,7 +101,7 @@ First, we need to set up the cloud infrastructure. We will use PowerShell script
     **Note**: Your subscription plan guid is the `id` field that comes back in the response JSON. In the following example, the subscription guid is `726da029-91f0-4dc1-a728-f25664374559`.
 
     ```json
-      {
+    {
     "cloudName": "AzureCloud",
     "homeTenantId": "8f4781a5-82b9-4181-a022-4e9e91028be4",
     "id": "726da029-91f0-4dc1-a728-f25664374559",
