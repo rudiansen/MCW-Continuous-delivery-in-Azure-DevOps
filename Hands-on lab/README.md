@@ -48,7 +48,7 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
     - Task 4: Branch Policies in GitHub (Optional)
   - [Exercise 3: Continuous Deployment with Azure DevOps](content/Exercise%203%20-%20Continuous%20Deployment%20with%20Azure%20DevOps.md)
     - Task 1: Continuous Deployment with Azure DevOps Pipelines
-    - Task 2: Linking Git commits to Azure DevOps issues
+    - Task 2: Linking Git commits to Azure DevOps board
   - [After the hands-on lab](content/After%20the%20HOL.md)
     - Task 1: Tear down Azure Resources
   
