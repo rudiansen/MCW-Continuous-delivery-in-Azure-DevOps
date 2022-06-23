@@ -4,7 +4,7 @@
 
 <!-- TOC -->
 
-- [Exercise 2: Continuous Delivery / Continuous Deployment with GitHub](#exercise-2-continuous-delivery--continuous-deployment)
+- [Exercise 2: Continuous Delivery / Continuous Deployment with GitHub](#exercise-2-continuous-delivery--continuous-deployment-with-github)
     - [Task 1: Set up Cloud Infrastructure](#task-1-set-up-cloud-infrastructure)
     - [Task 2: Deploy to Azure Web Application](#task-2-deploy-to-azure-web-application)
     - [Task 3: Continuous Deployment with GitHub Actions](#task-3-continuous-deployment-with-github-actions)

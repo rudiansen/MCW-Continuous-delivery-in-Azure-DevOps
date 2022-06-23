@@ -4,9 +4,9 @@
 
 <!-- TOC -->
 
-- [Exercise 3: Continuous Deployment with Azure DevOps](#exercise-3-monitoring-logging-and-continuous-deployment-with-azure)
-    - [Task 1: Continuous Deployment with Azure DevOps Pipelines](#task-3-continuous-deployment-with-azure-devops-pipelines)
-    - [Task 2: Linking Git commits to Azure DevOps issues](#task-2-linking-git-commits-to-azure-devops-issues)    
+- [Exercise 3: Continuous Deployment with Azure DevOps](#exercise-3-continuous-deployment-with-azure-devops)
+    - [Task 1: Continuous Deployment with Azure DevOps Pipelines](#task-1-continuous-deployment-with-azure-devops-pipelines)
+    - [Task 2: Linking Git commits to Azure Boards](#task-2-linking-git-commits-to-azure-boards)    
 
 <!-- /TOC -->
 
@@ -239,9 +239,9 @@ Fabrikam Medical Conferences has its first website for a customer running in the
 
     ![Reviewing DeployProd stage transition request during a pipeline execution.](../media/review-deploy-to-app-service.png "Reviewing pipeline request")
 
-### Task 2: Linking Git commits to Azure DevOps issues
+### Task 2: Linking Git commits to Azure Boards
 
-In this task, you will create an issue in Azure DevOps and link a Git pull request from GitHub to the Azure DevOps issue. This uses the Azure Boards integration that was set up in the Before Hands-on Lab.
+In this task, you will create an issue in Azure DevOps and link a Git pull request from GitHub to the Azure Boards. This uses the Azure Boards integration that was set up in the Before Hands-on Lab.
 
 1. Create a new issue for modifying the README.md in Azure Boards
 

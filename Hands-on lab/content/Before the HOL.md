@@ -4,8 +4,8 @@
 
 <!-- TOC -->
 
-- [Before the hands-on lab setup guide](#continuous-delivery-in-azure-devops-before-the-hands-on-lab-setup-guide)
-  - [Task 1: Create the Project Repo in GitHub](#task-1-create-the-project-repo)
+- [Before the hands-on lab setup guide](#before-the-hands-on-lab-setup-guide)
+  - [Task 1: Create the Project Repo in GitHub](#task-1-create-the-project-repo-in-github)
   - [Task 2: Create GitHub Personal Access Token](#task-2-create-github-personal-access-token)
   - [Task 3: Create Azure DevOps Personal Access Token](#task-3-create-azure-devops-personal-access-token)
   - [Task 4: Create Azure DevOps Project](#task-4-create-azure-devops-project)
@@ -58,11 +58,9 @@ In this task, you will create an account in [GitHub](https://github.com) and use
  > **Note**: Suggested name for the workspace folder is `C:\Workspaces\lab`, for example:
 
  ```pwsh
- C:
- mkdir C:\Workspaces
- cd C:\Workspaces
- mkdir lab
- cd lab
+ cd \
+ mkdir C:\Workspaces\lab
+ cd .\Workspaces\lab
  ```
 
 - You should now be in `C:\Workspaces\lab`. Type the following command and press `<ENTER>`:

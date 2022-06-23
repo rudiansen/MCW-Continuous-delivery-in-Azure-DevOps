@@ -4,7 +4,7 @@
 
 <!-- TOC -->
 
-- [Exercise 1: Continuous Integration with GitHub](#exercise-1-continuous-integration)
+- [Exercise 1: Continuous Integration with GitHub](#exercise-1-continuous-integration-with-github)
     - [Task 1: Set up Local Infrastructure](#task-1-set-up-local-infrastructure)
     - [Task 2: Build Automation with GitHub Registry](#task-2-build-automation-with-github-registry)
     - [Task 3: Editing the GitHub Workflow File Locally](#task-3-editing-the-github-workflow-file-locally)

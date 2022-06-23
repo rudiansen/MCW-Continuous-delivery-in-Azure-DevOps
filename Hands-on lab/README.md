@@ -45,10 +45,10 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
     - Task 1: Set up Cloud Infrastructure
     - Task 2: Deploy to Azure Web Application
     - Task 3: Continuous Deployment with GitHub Actions
-    - Task 4: Branch Policies in GitHub (Optional)
+    - Task 4: Branch Policies in GitHub *(optional)*
   - [Exercise 3: Continuous Deployment with Azure DevOps](content/Exercise%203%20-%20Continuous%20Deployment%20with%20Azure%20DevOps.md)
     - Task 1: Continuous Deployment with Azure DevOps Pipelines
-    - Task 2: Linking Git commits to Azure DevOps board
+    - Task 2: Linking Git commits to Azure Boards
   - [After the hands-on lab](content/After%20the%20HOL.md)
     - Task 1: Tear down Azure Resources
   
